@@ -1,0 +1,15 @@
+# 构建产物
+build/
+# 内嵌 nexttrace 官方二进制（构建前自行下载，不入库）
+nexttrace-tiny_windows_amd64.exe
+dist/
+gotrace/assets/
+gotrace/*.syso
+gotrace/gui_debug.exe
+gotrace/trace_debug.exe
+gotrace/winres/*~
+# 备份文件
+*~
+*.pyc
+__pycache__/
+gotrace/td2.exe
